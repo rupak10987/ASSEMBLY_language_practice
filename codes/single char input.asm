@@ -1,0 +1,9 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+.CODE
+MAIN PROC  
+    MOV ah,1
+    int 21h
+    MAIN ENDP
+END MAIN
