@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
- msg1 db 'hello!$'
+ msg1 db 'hello$'
 .code
 main proc
     mov ax, @data

@@ -16,12 +16,12 @@ main proc
      je end_of_input; to be implemented later
       sub al,30h
      shl bx,1
-     and al,0Fh
+     ;and al,0Fh
      or bl,al  
      jmp input
      
      end_of_input:
-     rcl bx,1
+     rol bx,1
      jnc print_0
      lea dx,one
      mov ah,9

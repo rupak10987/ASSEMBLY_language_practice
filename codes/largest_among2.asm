@@ -12,7 +12,7 @@ main proc
     next:
     mov ah,2
     mov dl,cl 
-    add dl,48
+   add dl,30h
      int 21h
      main endp
 end main
